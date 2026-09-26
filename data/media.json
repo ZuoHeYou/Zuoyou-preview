@@ -22,6 +22,28 @@
       "width": 1206,
       "height": 2622,
       "id": "feed-end"
+    },
+    {
+      "title": "搭子 · 名片与类型",
+      "description": "四城市、横向类型与双列演示名片；真实接口尚未接入。",
+      "date": "2026-09-27",
+      "device": "iPhone 17 · iOS 26.5",
+      "asset": "companions-20260927-641f9117873a.png",
+      "sha256": "641f9117873a1e673e9a69bcb353a4ae2174c9fd70f892d9886acd42b207e5f3",
+      "width": 1206,
+      "height": 2622,
+      "id": "companions"
+    },
+    {
+      "title": "搭子 · 主页待接入",
+      "description": "点击名片显示待接入提示，真实个人主页尚未完成。",
+      "date": "2026-09-27",
+      "device": "iPhone 17 · iOS 26.5",
+      "asset": "companions-profile-boundary-20260927-8ccca49b8d73.png",
+      "sha256": "8ccca49b8d73089466e667c5195e679ca704655533957295b1320ab578e609da",
+      "width": 1206,
+      "height": 2622,
+      "id": "companions-profile-boundary"
     }
   ]
 }
