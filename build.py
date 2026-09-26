@@ -85,8 +85,8 @@ def materialize_images(media, media_dir, output, repository):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", default=str(SOURCE.parent / "build/pages"))
-    parser.add_argument("--media-dir", default=str(SOURCE.parent / "build/preview-media"))
+    parser.add_argument("--output", default=str(SOURCE / "build/pages"))
+    parser.add_argument("--media-dir", default=str(SOURCE / "build/preview-media"))
     parser.add_argument("--repository", help="仅从指定 GitHub 仓库的 Release 下载图片")
     args = parser.parse_args()
     output = Path(args.output).resolve()
