@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="左右 App 需求进度：从模块、功能到验收点，逐项查看实现状态与相关预览。">
+  <meta name="referrer" content="no-referrer">
+  <title>{{TITLE}} · 左右</title>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="reader.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <p id="reader-announcement" class="sr-only" role="status" aria-live="polite"></p>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">左<span>右</span></span><span>需求手册</span></a><nav aria-label="页面导航"><button class="directory-toggle" aria-expanded="false" aria-controls="reader-directory">打开目录</button><a href="index.html">项目总览</a><span class="reading-hint">逐页阅读 · 方向键翻页</span></nav></header>
+  <main id="main">{{BREADCRUMBS}}{{CONTENT}}</main>
+  <footer><span>左右 · 产品研发进度</span><span>公开摘要 · 分层查看</span></footer>
+</body>
+</html>

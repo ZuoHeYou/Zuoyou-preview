@@ -1,0 +1,27 @@
+{
+  "release": "preview-media-20260926",
+  "images": [
+    {
+      "title": "首页 · 发现",
+      "description": "频道、双列内容卡片与底部五个入口。",
+      "date": "2026-09-26",
+      "device": "iPhone 17 · iOS 26.5",
+      "asset": "home-20260926-2e21cdcd0d57.png",
+      "sha256": "2e21cdcd0d570f28c2595e9b84dea73206bf125a2791d050bfda40379002c702",
+      "width": 1206,
+      "height": 2622,
+      "id": "home"
+    },
+    {
+      "title": "内容流 · 分页",
+      "description": "加载更多内容，滚动到列表末尾。",
+      "date": "2026-09-26",
+      "device": "iPhone 17 · iOS 26.5",
+      "asset": "feed-end-20260926-a2818f28e310.png",
+      "sha256": "a2818f28e31056a448fd2bc098588bb2da20017321e977db19ac7ea9070354ce",
+      "width": 1206,
+      "height": 2622,
+      "id": "feed-end"
+    }
+  ]
+}
